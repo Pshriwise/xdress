@@ -5,10 +5,13 @@ packagedir = 'mypack'  # loation of the python package
 
 extra_types = 'mypack_extra_types'
 
+
 stlcontainers = [
     ('vector', 'str'),
     ('set', 'uint'),
     ('map', 'int', 'float'),
+    ('vector', 'float'),
+    ('vector', ('vector', 'float')),
     ]
 
 classes = [
