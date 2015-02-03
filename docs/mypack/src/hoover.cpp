@@ -8,9 +8,9 @@ A::A(int x){
   test_val.push_back(2); 
   test_val.push_back(3); 
 
-  //test_vals.push_back(test_val); 
-  //test_vals.push_back(test_val); 
-  //test_vals.push_back(test_val); 
+  test_vals.push_back(test_val); 
+  test_vals.push_back(test_val); 
+  test_vals.push_back(test_val); 
 
 };
 A::~A(){};
